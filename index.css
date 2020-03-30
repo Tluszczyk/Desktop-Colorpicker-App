@@ -1,0 +1,81 @@
+body#picker {
+    background-color: white;
+}
+
+#result {
+    margin: 0;
+    padding: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+
+    text-align: center;
+
+    width: 50%;
+}
+
+.results {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#resultValues {
+    margin-top: 9px;
+}
+
+.description {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.value {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+}
+
+#colorMaxSaturation {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+}
+
+#selectedColorSaturation {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+}
+
+#showColorMaxSaturation {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+}
+
+#showResultColor {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+}

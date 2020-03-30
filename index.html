@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Color Picker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="picker" style="-webkit-app-region: drag">
+        <div class="main" id="result"></div>
+        <canvas id="colorMaxSaturation"></canvas>
+
+        <div class="results" id="resultDescriptions">
+            <p class="description" id="rgbValue">RGB</p>
+            <p class="description" id="hsvValue">HSV</p>
+            <p class="description" id="cmykValue">CMYK</p>
+            <p class="description" id="hexValue">HEX</p>
+            <p class="description" id="hslValue">HSL</p>
+        </div>
+
+        <div class="results" id="resultValues">
+            <p class="value" id="rgbValue">rgb</p>
+            <p class="value" id="hsvValue">hsv</p>
+            <p class="value" id="cmykValue">cmyk</p>
+            <p class="value" id="hexValue">hex</p>
+            <p class="value" id="hslValue">hsl</p>
+        </div>
+
+        <canvas id="selectedColorSaturation"></canvas>
+
+        <canvas id="showColorMaxSaturation"></canvas>
+        <canvas id="showResultColor"></canvas>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
