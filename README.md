@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # Desktop-Colorpicker-App
 
-![Output sample](view.mov)
-=======
-# Desktop-Colorpicker-App
->>>>>>> 490b31892dd6f4ba0d726fa4e957aa7f63b3df77
+## Simple colour picker for designers and developers
+
+![Picker](https://user-images.githubusercontent.com/34217165/77903168-b9fe7f00-7282-11ea-87b4-089442bf4ed9.gif)
