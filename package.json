@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "electron-packager": "^14.2.1",
+    "minimist": "^1.2.5",
     "turbojs": "^1.0.2"
   }
 }
